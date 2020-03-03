@@ -1,0 +1,15 @@
+{
+  "name": "cs_546_lab3",
+  "version": "1.0.0",
+  "description": "Lab 3 Asynchronous Code and Files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node apps.js"
+  },
+  "author": "Aloys_Elton (CWID: 10456065)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "fs": "0.0.1-security"
+  }
+}
