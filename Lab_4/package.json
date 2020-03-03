@@ -1,0 +1,16 @@
+{
+  "name": "lab_4",
+  "version": "1.0.0",
+  "description": "cs_546_mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aloys_Elton CWID: 10456065",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.3" 
+    
+  }
+}
