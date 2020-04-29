@@ -1,0 +1,18 @@
+<article class = "login_page">
+    <h1>Login Page</h1>
+    <main>
+        <form action="/login" method="POST" class="login_page" id ="login_page">
+        <p>
+            <input type = "text" id="username" name="username" size="75">
+            <label for="username">Enter Text</label>
+
+            <label for="password" class ="pswd" > Enter Password</label>
+            <input type = "text" id ="password" name="password" size="75">
+
+            <button type = "submit" class="btn">Submit</button>
+        </form>
+    </main>
+    {{#if hasErrors}}
+        <ul class = "error-list"> {{errors}} </ul>
+    {{/if}}
+</article>

@@ -1,0 +1,13 @@
+<article class="new_palindrome">
+    <h1>The Palindrome Results!</h1>
+    <main>
+            {{#if palindrom}}
+            <p id = "palin_result"  class = "success"> {{palin_text}}</p>
+            <p> String is palindrome</p>
+            {{else}}
+            <p id = "plain_result" class ="failure"> {{palin_text}}</p>
+            <p> String is not a palindrome</p>
+            {{/if}}
+        <a href = "/palindrome/index" class="btn-yellow">Try another palindrome</a>
+    </main>
+</article> 
