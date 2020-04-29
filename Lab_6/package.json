@@ -1,0 +1,17 @@
+{
+  "name": "lab_6",
+  "version": "1.0.0",
+  "description": "\"Lab_6\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Aloys_Elton CWID:10456065",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "uuid": "^7.0.2"
+  }
+}
