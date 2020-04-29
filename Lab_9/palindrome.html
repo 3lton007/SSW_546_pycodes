@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <h1>The Best Palindrome Checker in the World</h1>
+        <link rel = 'stylesheet' href ='style.css'>
+    </head>    
+    <body>
+        <article class = "new_palindrome">
+            
+            <main>
+                <p>A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward, such as madam or racecar. 
+                </p>
+
+                <form id = "my_form" action="/" method="POST" class="new_palindrome_form">
+                <input type = "text" id="palin_text" name="phrase" size="75">
+                <label for="palindrome_text">Enter Text</label>
+                <button id = 'sub_btn' type = "submit" class="btn-blue">Submit</button>
+                </form>
+            </main>
+            <!-- {{#if hasErrors}}
+                <ul class = "error-list"> {{errors}} </ul>
+            {{/if}} -->
+        </article>
+        
+        <ul  id="list"></ul>
+        <div id = "error" class ="error" hidden ></div>
+        
+        <script src = 'D:\PythonDev\.vscode\node_js\Lab_9\plaindrome.js'> 
+            
+        </script>
+    </body>
+    <footer>
+         Elton Aloys - CWID: 10456065       
+    </footer>
+</html>
+
